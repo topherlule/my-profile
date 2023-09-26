@@ -1,0 +1,90 @@
+body {
+    color: rgb(60, 60, 60);
+    background-color: #F7F9FC;
+    text-align: center;
+    font-family: courier;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 700px;
+    margin: 100px auto;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+h1, h2 {
+    font-family: sans-serif;
+}
+
+h2{
+    color: #419197;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p, a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+#chris-profile-image {
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px rgba(200, 200, 200, 0.7);
+}
+
+#btn-blue {
+    background: #3c8cac;
+    border: 10px black;
+    color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(200, 200, 200, 0.7);
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 105px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 50%;
+    color: red;
+}
+
+#btn-blue:hover {
+    opacity: 50%;
+}
+
+.boxes-white {
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    width: 700px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0%;
+    font-size: 50px;
+}
